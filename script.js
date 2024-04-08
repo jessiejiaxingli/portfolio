@@ -32,14 +32,14 @@ var portfolioCollection = {
 		"description": "Developing my ability to paint humans, I was drawn to this subject because it evokes a sense of familiarity with my own childhood and my brother's as well.",
 	},
 	{
-		"image" : "cat.JPG",
+		"image" : "cat.jpg",
 		"category" : "trad",
 		"id" : "cat",
 		"title" : "Hunter",
 		"description": "Charcoal sketch of a cat.",
 	},
 	{
-		"image" : "burning.JPG",
+		"image" : "burning.jpg",
 		"category" : "digital",
 		"id" : "burning",
 		"title" : "Burning",
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			if (portfolioCollection[i]["id"] == urlID) {
 				createProjectPage(portfolioCollection[i]);
 			}
-	    }
+	  }
 	}
 });
 
