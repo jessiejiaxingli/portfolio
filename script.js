@@ -51,6 +51,13 @@ var portfolioCollection = {
 		"id" : "rain",
 		"title" : "Rainy Days",
 		"description": "Exploration of chinese architecture and inspired by the artwork made by Studio Ghibli.",
+	},
+	{
+		"image" : "whaleshark.jpg",
+		"category" : "pottery",
+		"id" : "whaleshark",
+		"title" : "Whale Shark Planter",
+		"description" : "A ceramic whale shark planter.",
 	}
 }
 
