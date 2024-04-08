@@ -2,7 +2,7 @@ var pageTitleElem;
 var outputGridElem;
 var projectDisplayElem;
 
-var portfolioCollection = {
+var portfolioCollection = [
 	{
 		"image" : "beijing.JPG",
 		"category" : "trad",
@@ -59,7 +59,7 @@ var portfolioCollection = {
 		"title" : "Whale Shark Planter",
 		"description" : "A ceramic whale shark planter.",
 	}
-}
+]
 
 document.addEventListener("DOMContentLoaded", function(){
 	pageTitleElem = document.getElementById("pageTitle");
