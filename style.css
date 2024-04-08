@@ -5,29 +5,65 @@
 }
 
 body{
-	font-family: monospace;
-	padding: 5vw;
+	font-family: scotch-display, sans-serif;
 	font-size: 2vw;
+	background-color: black;
+	color: white;
 }
 
-.menu{
-	display: flex;
-	justify-content: space-around;
+a{
+	text-decoration: none;
+	color: #A3C6E3;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #A3C6E3;
 }
 
 #title{
 	display: flex;
+	font-family: modern-love-rough, sans-serif;
 	justify-content: center;
-	align-content: center;
-	height: 50vh;
-	margin: 2vw;
+	align-items: center;
+	height: 80vh;
+	margin: 0px;
+	background-image: url("IMG_6566.jpg");
+	background-size: cover;
+	background-position: bottom;
 }
 
 #title>h1{
-	font-size: 5vw;
+	font-size: 8vw;
+	color: #364B65;
+	align-self: center;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+	margin: 2vw;
+	padding-left: 50vw;
+}
+
+#intro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5vw;
+	font-family: scotch-display, sans-serif;
+	font-size: 3vw;
 }
 
 #pageTitle{
+	margin: 5vw;
 	margin-bottom: 2vw;
 }
 

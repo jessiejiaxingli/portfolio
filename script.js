@@ -59,7 +59,7 @@ var portfolioCollection = [
 		"title" : "Whale Shark Planter",
 		"description" : "A ceramic whale shark planter.",
 	}
-]
+];
 
 document.addEventListener("DOMContentLoaded", function(){
 	pageTitleElem = document.getElementById("pageTitle");
@@ -73,10 +73,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	if (urlSection != "item"){
 		if (urlSection == "digital"){
-			pageTitleElem.innerText = "Digital Work";
+			pageTitleElem.innerText = "Digital Art";
 		}
 		else if (urlSection == "trad"){
-			pageTitleElem.innerText = "Traditional Work";
+			pageTitleElem.innerText = "Traditional Art";
 		}
 		else if (urlSection == "pottery"){
 			pageTitleElem.innerText = "Pottery";
