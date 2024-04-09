@@ -44,7 +44,7 @@ var portfolioCollection = [
 		"description": "Burning \n \n Digital piece of a bare tree at sunset as an investigation in color.",
 	},
 	{
-		"image" : "rain.JPG",
+		"image" : "rain.jpg",
 		"category" : "digital",
 		"id" : "rain",
 		"color" : "#596A71",
